@@ -3,6 +3,11 @@ import LandingHeader from '../components/LandingHeader.astro';
 import Layout from '../layouts/Layout.astro';
 import HeroSection from '../components/HeroSection.astro'; 
 import ModelYSection from '../components/ModelYSection.astro';
+import Model3Section from '../components/Model3Section.astro';
+import ModelSSection from '../components/ModelSSection.astro';
+import ModelXSection from '../components/ModelXSection.astro';
+import SolarSection from '../components/SolarSection.astro';
+import AccesoriosSection from '../components/AccesoriosSection.astro';
 ---
 
 <Layout title="Coches eléctricos, energía solar y limpia | Tesla España">
@@ -19,11 +24,23 @@ import ModelYSection from '../components/ModelYSection.astro';
 		</div>
 
 		<div class="snap-center">
-			<HeroSection />
+			<Model3Section />
 		</div>
 
 		<div class="snap-center">
-			<HeroSection />
+			<ModelSSection />
+		</div>
+
+		<div class="snap-center">
+			<ModelXSection />
+		</div>
+
+		<div class="snap-center">
+			<SolarSection />
+		</div>
+
+		<div class="snap-center">
+			<AccesoriosSection />
 		</div>
 		
 	</main>
